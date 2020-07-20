@@ -27,4 +27,4 @@ class TestCalc:
         assert expect == result
 
     if __name__ == '__main__':
-        pytest.main(['-vs', 'calc_test.py::TestCalc'])
+        pytest.main(['-vs', 'test_calc.py::TestCalc'])
